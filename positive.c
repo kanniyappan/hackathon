@@ -17,7 +17,6 @@ else
 {
 printf("Zero\n");
 }
-}
 getch();
 }
 
