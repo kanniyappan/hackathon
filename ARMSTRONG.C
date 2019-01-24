@@ -2,7 +2,7 @@
 #include<conio.h>
 main()
 {
-int n,r,i,sum=0,c=0,temp,temp1,p,a=1;
+int n,r,i,sum=0,c=0,temp,temp1,q,a=1;
 clrscr();
 scanf("%d",&n);
 temp=n;
@@ -17,12 +17,12 @@ c++;
 while(temp)
 {
 r=temp%10;
-p=1;
+q=1;
 for(i=1;i<=c;i++)
 {
-p=p*r;
+q=q*r;
 }
-sum=sum+p;
+sum=sum+q;
 temp=temp/10;
 }
 if(sum==temp1)
