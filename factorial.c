@@ -6,7 +6,7 @@ main()
 
 {
 
-int i,fact=1,j,n;
+int i,fact1=1,j,n;
 
 clrscr();
 
@@ -16,11 +16,11 @@ for(j=1;j<=n;j++)
 
 {
 
-fact=fact*j;
+fact1=fact1*j;
 
 }
 
-printf("%d",fact);
+printf("%d",fact1);
 
 getch();
 
