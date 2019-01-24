@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+int n,r,i,sum=0,c=0,temp,temp1,p,a=1;
+clrscr();
+scanf("%d",&n);
+temp=n;
+temp1=temp;
+if(n<=100000)
+{
+while(n>0)
+{
+n=n/10;
+c++;
+}
+while(temp)
+{
+r=temp%10;
+p=1;
+for(i=1;i<=c;i++)
+{
+p=p*r;
+}
+sum=sum+p;
+temp=temp/10;
+}
+if(sum==temp1)
+printf("Yes");
+else
+printf("No");
+}
+else
+printf("Input is not valid");
+getch();
+}
