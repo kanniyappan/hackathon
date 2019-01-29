@@ -1,9 +1,7 @@
 #include <stdio.h>
 
     
-void main()
-
-   
+main()
 {
         
 int i, j, a, n, number[30];
@@ -37,10 +35,6 @@ number[j] = a;
 }
         
 }
-            
-for (i = 0; i < n; ++i)
-
-            
-printf("%d", number[i]);
-    
+    for (i = 0; i < n; ++i)
+   printf("%d", number[i]);    
 }
