@@ -2,7 +2,7 @@
 
 #include<conio.h>
 
-void main()
+main()
 
 {
 
