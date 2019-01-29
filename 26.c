@@ -98,7 +98,7 @@ quickSort(partitionPoint+1,right);
 
 }
 
-int main() 
+ main() 
 {
    
 quickSort(0,MAX-1);
