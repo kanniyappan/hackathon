@@ -6,7 +6,7 @@ int minutes = 0;
 
 int hours = 0;
 
-int main()
+ main()
 
 {
 
